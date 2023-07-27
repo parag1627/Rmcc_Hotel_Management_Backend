@@ -3,7 +3,7 @@ package com.mhtechin.service;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.password.PasswordEncoder;
+
 import org.springframework.stereotype.Service;
 
 import com.mhtechin.entity.LoginDTO;
@@ -11,7 +11,7 @@ import com.mhtechin.entity.User;
 import com.mhtechin.entity.UserDTO;
 import com.mhtechin.repo.UserRepo;
 import com.mhtechin.response.LoginResponse;
-import com.mhtechin.service.IUserService;
+
 
 @Service
 public class UserServiceIMPL implements UserService {

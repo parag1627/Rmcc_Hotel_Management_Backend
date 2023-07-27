@@ -25,7 +25,7 @@ public class UserController {
     private UserServiceIMPL userService;
 //    
     @PostMapping("/save")
-    public String saveUser(@RequestBody UserDTO userDTO)
+    public String addUser(@RequestBody UserDTO userDTO)
     {
         String id = userService.addUser(userDTO);
         return id;
